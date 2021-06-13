@@ -1,0 +1,14 @@
+version: '3.3'
+services:
+  node:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: node_1
+    entrypoint: bash dev.build.sh
+    ports:
+      - 8089:8089
+      - 9229:9229
+    working_dir: /app
+    volumes:
+      - .:/app:cached
