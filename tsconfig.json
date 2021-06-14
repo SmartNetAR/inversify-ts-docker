@@ -7,9 +7,9 @@
       "DOM"
     ],
     "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
   },
-  "experimentalDecorators": true,
-  "emitDecoratorMetadata": true,
   "include": [
     "src/**/*"
   ]
