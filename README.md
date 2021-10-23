@@ -14,3 +14,10 @@ docker-compose up --build
 
 5. Confirm the process stops at breakpoint  
 ![image](/screenshots/stops_at_breakpoint.png) 
+
+
+
+## Parcel
+
+```yarn start```
+```npx nodemon dist/index.js```

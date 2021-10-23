@@ -12,7 +12,7 @@ class App
 
     constructor()
     {
-        this.port = 8089;
+        this.port = 8080;
         this.server = new InversifyExpressServer(container);
     }
 
